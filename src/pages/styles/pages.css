@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,300;0,500;0,600;0,700;0,800;0,900;1,200&display=swap");
+* {
+  margin: 0;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.page {
+  min-height: 100vh;
+  background-color: #fff3e6;
+}
+
+.page button {
+  background-color: #fdc877;
+}
+
+.page button:hover {
+  cursor: pointer;
+}
+
+.page .landing {
+  margin: 5em 2em;
+}
+
+.page .landing .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: rgba(250, 155, 66, 0.89);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 25vh;
+  padding: 1.25em;
+  border-radius: 6px;
+  margin-bottom: 2em;
+  -webkit-box-shadow: #289fed -5px 5px, #5fb8ff -10px 10px, #a1d8ff -15px 15px, #cae6ff -20px 20px, #e1eeff -25px 25px;
+          box-shadow: #289fed -5px 5px, #5fb8ff -10px 10px, #a1d8ff -15px 15px, #cae6ff -20px 20px, #e1eeff -25px 25px;
+}
+
+.page .landing .search h2 {
+  font-weight: 800;
+  color: #fff3e6;
+}
+
+.page .landing .search form {
+  margin-top: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page .landing .search form input {
+  width: 15em;
+  height: 2em;
+  border-radius: 3px;
+  border: none;
+  padding: 0.25em 0.5em;
+  margin-bottom: 1em;
+}
+
+.page .landing .search form button {
+  height: 2.5em;
+  border-radius: 6px;
+  border: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.page .landing .new {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(250, 155, 66, 0.89);
+  height: 25vh;
+  padding: 1.25em;
+  border-radius: 6px;
+  -webkit-box-shadow: #289fed -5px 5px, #5fb8ff -10px 10px, #a1d8ff -15px 15px, #cae6ff -20px 20px, #e1eeff -25px 25px;
+          box-shadow: #289fed -5px 5px, #5fb8ff -10px 10px, #a1d8ff -15px 15px, #cae6ff -20px 20px, #e1eeff -25px 25px;
+}
+
+.page .landing .new h2 {
+  font-weight: 800;
+  color: #fff3e6;
+}
+
+.page .landing .new button {
+  margin-top: 4em;
+  width: 16em;
+  height: 5em;
+  border-radius: 6px;
+  border: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.page .create-name {
+  margin: 5em 2em;
+}
+
+.page .create-name .add-username {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: rgba(250, 155, 66, 0.89);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 25vh;
+  padding: 1.25em;
+  border-radius: 6px;
+  margin-bottom: 2em;
+  -webkit-box-shadow: #289fed -5px 5px, #5fb8ff -10px 10px, #a1d8ff -15px 15px, #cae6ff -20px 20px, #e1eeff -25px 25px;
+          box-shadow: #289fed -5px 5px, #5fb8ff -10px 10px, #a1d8ff -15px 15px, #cae6ff -20px 20px, #e1eeff -25px 25px;
+}
+
+.page .create-name .add-username h2 {
+  font-weight: 800;
+  color: #fff3e6;
+}
+
+.page .create-name .add-username form {
+  margin-top: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page .create-name .add-username form input {
+  width: 15em;
+  height: 2em;
+  border-radius: 3px;
+  border: none;
+  padding: 0.25em 0.5em;
+  margin-bottom: 1em;
+}
+
+.page .create-name .add-username form button {
+  height: 2.5em;
+  border-radius: 6px;
+  border: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.page .create-card {
+  margin: 5em 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: rgba(250, 155, 66, 0.89);
+  min-height: 25vh;
+  padding: 1.25em;
+  border-radius: 6px;
+  -webkit-box-shadow: #289fed -5px 5px, #5fb8ff -10px 10px, #a1d8ff -15px 15px, #cae6ff -20px 20px, #e1eeff -25px 25px;
+          box-shadow: #289fed -5px 5px, #5fb8ff -10px 10px, #a1d8ff -15px 15px, #cae6ff -20px 20px, #e1eeff -25px 25px;
+}
+
+.page .create-card h2 {
+  display: none;
+}
+
+.page .create-card form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+/*# sourceMappingURL=pages.css.map */
