@@ -14,16 +14,32 @@ router.get('/card/:username', async (req, res) => {
     }
   })
 
-  router.get('/id/:id', async (req, res) => {
+  router.post('/card', async (req, res) => {
     try{
-        const user = await User.findById(req.params.id);
+        const newCard = new User({
+            username: req.body.username,
+                bio: req.body.bio,
+                password: req.body.password,
+                song: req.body.song,
+                emoticon: req.body.emoticon,
+                instagram: req.body.instagram,
+                youtube: req.body.youtube,
+                tiktok: req.body.tiktok,
+                twitter: req.body.twitter,
+                spotify: req.body.spotify,
+                appleMusic: req.body.appleMusic,
+                cardColour: req.body.cardColour
+          });
+          const card = await newCard.save();
+          res.status(200).json(card);
+          console.log("media created");
         res.status(200).json(user);
     } catch (err) {
         res.status(500).json(err)
     }
   })
 
-  router.put('/:id', async (req, res) => {
+  router.put('/card/:id', async (req, res) => {
     const username = req.body.username
       try { 
         const updatedUser = await User.findByIdAndUpdate((req.params.id), {

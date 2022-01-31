@@ -8,7 +8,6 @@ const UserSchema = new Schema({
         required: true,
         unique: true,
     },
-   card: {
      bio: {
       type: String,
       required: true,
@@ -41,7 +40,6 @@ const UserSchema = new Schema({
       type: String, 
       required: true,
      },
-   }
   },);
   
 
