@@ -26,7 +26,7 @@ function Landing() {
             <div className='new'>
             <h2>Or make a new one...</h2>
             <button onClick={() => {
-                navigate('/name')
+                navigate('/create-card')
             }}>create new card</button>
             </div>
         </div>
